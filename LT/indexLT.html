@@ -1,0 +1,164 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagrindinis puslapis</title>
+    <link rel="stylesheet" href="styleLT.css">
+</head>
+<body>
+        <header id="header">
+          <div class="burger" id="burger">
+             &#9776;
+           </div>
+
+        <nav class="navigation-homepage" id="navLinks">
+         <h4><a href="#article2">Projektai</a></h4>
+         <h4><a href="#article1">Technologijos</a></h4>
+         <h4><a href="#article3">Apie mane</a></h4>
+         <h4><a href="#article4">Susisiekite su manimi</a></h4>
+
+         <nav class="navigation-lang">
+             <h4 id="RUS">RUS</h4>
+             <h4 id="ENG">ENG</h4>
+             <h4 id="LT">LT</h4>
+           </nav>
+        </nav>
+    </header>
+
+    <main id="main">
+        <video src="../media/stars.mp4" muted="muted" autoplay="autoplay" loop="loop" width="100%"></video>
+
+            <div id="webdeveloper">
+                <div class="text">
+                 <h1>Lauryna Žeima</h1>
+                 <h2><span>Frontend</span> Web Developeris</h2>
+                 <p>Čia galite sužinoti apie mano projektus ir apie mane.</p>
+
+                </div>
+
+                 <div class="photo">
+                    <img src="../image/Untitled.png.png" alt="me" id="me">
+                 </div>
+             </div>
+
+        <div id="links">
+               <a href="https://github.com/slayyyy555"><img src="../icons/github.png" alt="github" id="github"></a>
+             <a href="https://www.linkedin.com/feed/"><img src="../icons/linkedin.png" alt="linkedin" id="linkedin"></a>
+          </div>
+    </main>
+
+    <article id="article1">
+
+        <h2 class="technologies">Technologijos</h2>
+        
+      <div class="design">
+        <ul id="techno">
+            <li class="html">
+                <img src="../icons/html.svg" alt="">
+                <p>HTML</p>
+            </li>
+    
+            <li class="css">
+                <img src="../icons/css.svg" alt="">
+                <p>CSS</p>
+            </li>
+
+            <li class="tail">
+                <img src="../icons/tailwindcss.svg" alt="">
+                <p>Tailwind</p>
+            </li>
+
+            <li class="js">
+                <img src="../icons/javascript.svg" alt="">
+                <p>JavaScript</p>
+            </li>
+            
+            <li class="react">
+                <img src="../icons/react.svg" alt="">
+                <p>React JS</p>
+            </li>
+
+            <li class="git">
+                <img src="../icons/git.svg" alt="">
+                <p>GIT</p>
+            </li>
+
+            <li class="bootstrap">
+                <img src="../icons/bootstrap.svg" alt="">
+                <p>Bootstrap</p>
+            </li>
+
+            <li class="figma">
+                <img src="../icons/figma.svg" alt="">
+                <p>Figma</p>
+            </li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="article2">
+
+         <video src="../media/compiuter.mp4" muted="muted" autoplay="autoplay" loop="loop" width="100%"></video>
+        
+        <div class="my-project">
+         <h2>Mano projektai</h2>
+         <p>Peržiūrėkite mano projektus ir sužinokite daugiau.</p>
+        </div>
+
+       <div id="project1">
+         <video src="../media/sweetHome.mp4" muted="muted" autoplay="autoplay" loop="loop" width="50%"></video>
+
+         <h4><span>Svetainė</span> "Sweet home"</h4>
+         <p>Šis projektas yra svetainė 'gyvūnų prieglaudai', su daugybe mažų elementų.</p>
+         <a href="https://github.com/slayyyy555/sweethome">Žiūrėti kodą</a>
+       </div>
+
+       <div id="project2">
+         <video src="../media/newHorizons.mp4" muted="muted" autoplay="autoplay" loop="loop" width="50%"></video>
+
+         <h4><span>Svetainė</span> "New Horizons" </h4>
+         <p>Šiame projekte galite pamatyti gražų puslapio dizainą ir elementus, kurie daro šią svetainę įdomesnę.</p>
+         <a href="https://github.com/slayyyy555/horizons">Žiūrėti kodą</a>
+       </div>
+
+       <div id="project3">
+         <video src="../media/myChecklist.mp4" muted="muted" autoplay="autoplay" loop="loop" width="50%"></video>
+
+         <h4><span>Svetainė</span> "My CheckList"</h4>
+         <p>Tai paprasta svetainė, kur galite užsirašyti savo užduoties ir jas redaguoti.</p>
+
+         <a href="https://github.com/slayyyy555/TaskList">Žiūrėti kodą</a>
+       </div>
+    </article>
+
+    <article id="article3">
+        <h2>Apie mane</h2>
+
+        <div class="about-me">
+        <p>Esu junior kūrybingas tinklalapių kūrėjas,
+         kuris labai nori pradėti dirbti įdomiuose
+         projektuose ir nori įgyvendinti savo idėjas. 
+         Baigiau kursus <a href="https://www.vilniuscoding.lt/">Vilnius Coding School</a>
+         ir dabar noriu toliau tobulėti ir mokytis!</p>
+        </div>
+    </article>
+
+    <article id="article4">
+        <h2>Susisiekite su manimi</h2>
+
+        <form id="contact-form">
+          <input type="text" placeholder="Name" name="user_name" required>
+          <input type="email" placeholder="Email" name="user_email" required>
+          <textarea placeholder="Hi!" name="message" required></textarea>
+          <button>Išsiųsti</button>
+
+          <div class="imagee">
+            <img src="../image/R.png">
+          </div>
+        </form>
+    </article>
+
+     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="scriptLT.js"></script>
+</body>
+</html>
